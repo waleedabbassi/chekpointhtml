@@ -7,47 +7,72 @@
       href="C:\Users\Pc\Desktop\GoMyCode\walid abbassi\icon.png"
       type="image/icon"
     />
+    <link rel="stylesheet" href="./css/style.css"/>
+    <style>
+
+    </style>
   </head>
 
   <body>
-    <a name="home"> </a>
+    
 
-    <div class="navbar">
+    
       <nav>
-        <a class="home" href="#home">Home</a>
-        <a href="#section about">About</a>
-        <a href="#section work">work</a>
-        <a href="#section resume">resume</a>
-        <a href="#section contact">contact</a>
+        <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#section about">About</a></li> 
+        <li><a href="#section work">Work</a></li>
+        <li><a href="#section resume">Resume</a></li>
+        <li><a href="#section contact">Contact Us</a></li> 
+        <li><a id="search" href="#search"><div> search <input type="text" name="search" /></div></a></li>
+        
+        </ul>
       </nav>
-    </div>
-    <br />
+      
+    
+    <br/>
 
-    <form>Search <input type="text" name="search" /></form>
+    
+
+    
 
     <div id="section about">
-      <b><h3>about</h3></b>
+      <b><h3>About</h3></b>
     </div>
 
-    <p>this is my first application</p>
-    <img
-      src="C:\Users\Pc\Desktop\GoMyCode\walid abbassi\icon.png"
-      alt="image"
-    />
+    <p class="para">It's my first webpage, I use an HTML element and the property of CSS. </p> 
+    <div class="image">
+      <img src="image/icon.png"/> 
+    </div>
+    
     <br />
 
     <div id="section work">
-      <b><h3>work</h3></b>
+      <b><h3>Work</h3></b>
     </div>
-    <p>using HTML tags</p>
+
+    <div class="audio-video">
     <audio controls>
       <source src="test.mp3" type="audio/mpeg" />
     </audio>
     <br />
+    <video width="120" height="150" autoplay>
+      <source src="test.mp4" type="video/mp4" />
+    </video>
+    <iframe
+      width="150"
+      height="150"
+      src="https://www.youtube.com/embed/zcTFG_F0FRs"
+    ></iframe>
+  </div>
+ 
+
+    <br />
 
     <div id="section resume">
-      <h3><b>resume</b></h3>
+      <h3><b>Resume</b></h3>
     </div>
+
     <table border="1">
       <tr>
         <th>contenu</th>
@@ -63,18 +88,10 @@
       </tr>
     </table>
     <br />
-    <video width="120" height="150" autoplay>
-      <source src="test.mp4" type="video/mp4" />
-    </video>
-    <iframe
-      width="150"
-      height="150"
-      src="https://www.youtube.com/embed/zcTFG_F0FRs"
-    ></iframe
-    ><br />
+   
 
     <div id="section contact">
-      <b><h3>contact</h3></b>
+      <b><h3>Contact</h3></b>
     </div>
 
     <form>
@@ -98,7 +115,7 @@
     </form>
 
     <div class="footer">
-      <h3>Copyright &copy; 2023</h3>
+      <h4>Copyright &copy; 2023</h4>
       <ul>
         <li>Privacy Policy</li>
         <li>Terms of Use</li>
